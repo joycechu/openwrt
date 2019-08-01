@@ -1,0 +1,37 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option hwmode '11g'
+	option path 'platform/10180000.wmac'
+	option htmode 'HT20'
+	option txpower '20'
+	option country 'US'
+	option disabled '0'
+	option channel '1'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option network 'lan'
+	option key 'tyscb123'
+	option ieee80211r '1'
+	option nasid '54369B1F1626'
+	option mobility_domain '4f57'
+	option r0_key_lifetime '10000'
+	option r1_key_holder '54369B1F1626'
+	option pmk_r1_push '1'
+	list r0kh '54:36:9B:1F:16:26,54369B1F1626,8a7fcc966ed0691ff2809e1f38c16996'
+	list r0kh 'E0:05:C5:99:EE:58,E005C599EE58,8a7fcc966ed0691ff2809e1f38c16996'
+	list r1kh '54:36:9B:1F:16:26,54:36:9B:1F:16:26,8a7fcc966ed0691ff2809e1f38c16996'
+	list r1kh 'E0:05:C5:99:EE:58,E0:05:C5:99:EE:58,8a7fcc966ed0691ff2809e1f38c16996'
+	option encryption 'psk2+ccmp'
+	option ssid 'BSSID'
+
+config wifi-iface
+	option ssid 'ChinaNet-sxdx'
+	option encryption 'none'
+	option device 'radio0'
+	option mode 'sta'
+	option network 'wwan'
+	option bssid '38:22:D6:CE:AF:B1'
+

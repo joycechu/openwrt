@@ -1,0 +1,83 @@
+{
+	"model": {
+		"id": "youku-yk1",
+		"name": "YOUKU YK1"
+	},
+	"led": {
+		"power": {
+			"name": "power",
+			"sysfs": "youku-yk1:blue:power",
+			"default": "1"
+		},
+		"wifi_led": {
+			"name": "wifi",
+			"type": "netdev",
+			"sysfs": "youku-yk1:blue:air",
+			"device": "wlan0",
+			"mode": "link tx rx"
+		},
+		"usb": {
+			"name": "USB",
+			"type": "usb",
+			"sysfs": "youku-yk1:blue:usb",
+			"device": "1-1"
+		}
+	},
+	"switch": {
+		"switch0": {
+			"enable": true,
+			"reset": true,
+			"ports": [
+				{
+					"num": 0,
+					"role": "lan"
+				},
+				{
+					"num": 1,
+					"role": "lan"
+				},
+				{
+					"num": 2,
+					"role": "lan"
+				},
+				{
+					"num": 3,
+					"role": "lan"
+				},
+				{
+					"num": 4,
+					"role": "wan"
+				},
+				{
+					"num": 6,
+					"device": "eth0",
+					"need_tag": false
+				}
+			],
+			"roles": [
+				{
+					"role": "lan",
+					"ports": "0 1 2 3 6t",
+					"device": "eth0.1"
+				},
+				{
+					"role": "wan",
+					"ports": "4 6t",
+					"device": "eth0.2"
+				}
+			]
+		}
+	},
+	"network": {
+		"lan": {
+			"ifname": "eth0.1",
+			"protocol": "static",
+			"macaddr": "54:36:9b:1f:16:26"
+		},
+		"wan": {
+			"ifname": "eth0.2",
+			"protocol": "dhcp",
+			"macaddr": "54:36:9b:1f:16:27"
+		}
+	}
+}

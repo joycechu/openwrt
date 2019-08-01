@@ -1,0 +1,23 @@
+Source-Makefile: feeds/luci/applications/luci-app-bmx7/Makefile
+Build-Depends: lua/host luci-base/host LUCI_CSSTIDY:csstidy/host 
+
+Package: luci-app-bmx7
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-lib-json +luci-mod-admin-full +bmx7 +bmx7-json
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for BMX7
+Maintainer: Roger Pueyo <roger.pueyo@guifi.net> Pau Escrich <p4u@dabax.net>
+Source: 
+License: GPL-2.0-or-later
+Type: ipkg
+Description: LuCI support for BMX7
+Roger Pueyo <roger.pueyo@guifi.net> Pau Escrich <p4u@dabax.net>
+@@
+
+

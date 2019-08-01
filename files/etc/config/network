@@ -1,0 +1,89 @@
+
+config interface 'loopback'
+	option ifname 'lo'
+	option proto 'static'
+	option ipaddr '127.0.0.1'
+	option netmask '255.0.0.0'
+
+config globals 'globals'
+
+config interface 'lan'
+	option type 'bridge'
+	option ifname 'eth0.1'
+	option proto 'static'
+	option netmask '255.255.255.0'
+	option ipaddr '192.168.11.1'
+	option macaddr '54:36:9b:1f:16:26'
+	option ip6assign '64'
+
+config device 'lan_dev'
+	option name 'eth0.1'
+	option macaddr '54:36:9b:1f:16:26'
+
+config device 'wan_dev'
+	option name 'eth0.2'
+	option macaddr '54:36:9b:1f:16:27'
+
+config interface 'wan6'
+	option ifname 'eth0.2'
+	option proto 'dhcpv6'
+	option reqaddress 'try'
+	option reqprefix 'auto'
+
+config switch
+	option name 'switch0'
+	option reset '1'
+	option enable_vlan '1'
+
+config switch_vlan
+	option device 'switch0'
+	option vlan '1'
+	option vid '1'
+	option ports '0 2 3 6t'
+
+config switch_vlan
+	option device 'switch0'
+	option vlan '2'
+	option ports '4 6t'
+	option vid '2'
+
+config interface 'vpn'
+	option proto 'openconnect'
+	option interface 'wan'
+	option server '59.49.25.225'
+	option defaultroute '0'
+	option authgroup 'BSS'
+	option username 'qihongwei'
+	option password '2640971123xx'
+	option serverhash 'sha256:c912a21248f1be755a655d8ab227f2f08c574b7a9048df345af4123cb2ae5382'
+	option auto '0'
+
+config switch_vlan
+	option device 'switch0'
+	option vlan '3'
+	option vid '3'
+	option ports '1 6t'
+
+config interface 'DCN'
+	option proto 'static'
+	option ifname 'eth0.3'
+	option ipaddr '137.64.58.24'
+	option netmask '255.255.255.224'
+	option gateway '137.64.58.1'
+	option ip4table '251'
+	option macaddr 'D4:EE:07:10:87:22'
+
+config interface 'WAN'
+	option proto 'static'
+	option ifname 'eth0.2'
+	option ipaddr '172.21.85.190'
+	option netmask '255.255.255.0'
+	option gateway '172.21.85.1'
+	option broadcast '172.21.85.255'
+	option dns '172.21.52.20'
+#	option ip4table '252'
+
+config interface 'wwan'
+	option proto 'dhcp'
+	option peerdns '0'
+	option ip4table '252'

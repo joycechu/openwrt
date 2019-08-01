@@ -1,0 +1,49 @@
+
+config system
+	option hostname 'OpenWrt'
+	option ttylogin '0'
+	option zonename 'Asia/Shanghai'
+	option timezone 'CST-8'
+	option log_proto 'udp'
+	option conloglevel '8'
+	option cronloglevel '8'
+
+config timeserver 'ntp'
+	list server '0.openwrt.pool.ntp.org'
+	list server '1.openwrt.pool.ntp.org'
+	list server '2.openwrt.pool.ntp.org'
+	list server '3.openwrt.pool.ntp.org'
+	option enabled '1'
+
+config led
+	option name 'dcn'
+	option sysfs 'youku-yk1:blue:power'
+	option trigger 'netdev'
+	option dev 'eth0.3'
+	option mode 'tx'
+	option default '1'
+
+config led
+	option name 'wan'
+	option sysfs 'youku-yk1:blue:usb'
+	option trigger 'netdev'
+	option dev 'eth0.2'
+	option mode 'tx rx'
+	option default '0'
+
+config led
+	option default '0'
+	option name 'wifi'
+	option sysfs 'youku-yk1:blue:air'
+	option trigger 'netdev'
+	option dev 'wlan0-1'
+	option mode 'tx rx'
+
+config led
+	option default '0'
+	option name 'lan'
+	option sysfs 'youku-yk1:blue:wan'
+	option trigger 'netdev'
+	option dev 'br-lan'
+	option mode 'tx rx'
+

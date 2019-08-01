@@ -1,0 +1,10 @@
+# This file is interpreted as shell script.
+# Put your custom iptables rules here, they will
+# be executed with each firewall (re-)start.
+
+# Internal uci firewall chains are flushed and recreated on reload, so
+# put custom rules into the root chains e.g. INPUT or FORWARD or into the
+# special user chains, e.g. input_wan_rule or postrouting_lan_rule.
+
+iptables -t nat -I prerouting_lan_rule -m id --id 0x66773300 -d 219.149.129.67 -m comment --comment oa -j DNAT --to-destination 172.21.50.80
+iptables -t nat -I prerouting_lan_rule -m id --id 0x66773300 -d 219.149.129.60 -m comment --comment oa -j DNAT --to-destination 172.21.52.89

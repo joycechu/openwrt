@@ -1,0 +1,8 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+ip rule add from all to 137.64.58.24/16 lookup dcn pri 1
+ip rule del from all to 137.64.58.24/27 lookup dcn
+ip rule add from all to 183.200.16.55/24 lookup admin pri 2
+
+exit 0

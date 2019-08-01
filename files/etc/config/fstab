@@ -1,0 +1,19 @@
+
+config global
+	option anon_swap '0'
+	option anon_mount '0'
+	option auto_mount '1'
+	option delay_root '15'
+	option auto_swap '0'
+	option check_fs '1'
+
+config mount
+	option device '/dev/mmcblk0p1'
+	option target '/mnt/youku/data0'
+	option enabled '1'
+
+config mount
+	option device '/dev/mmcblk0p2'
+	option enabled '1'
+	option target '/mnt/youku/data1'
+

@@ -1,0 +1,35 @@
+Source-Makefile: feeds/packages/multimedia/minisatip/Makefile
+
+Package: minisatip
+Version: 2019-07-08-b9fcb51b207f3b26b32b9b7c0e633cffea82274d-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +MINISATIP_AES:libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: multimedia
+Category: Multimedia
+Repository: base
+Title: SATIP server
+Maintainer: Daniel Kucera <github@danman.eu>
+Source: minisatip-2019-07-08-b9fcb51b207f3b26b32b9b7c0e633cffea82274d.tar.xz
+License: GPL-2.0-or-later
+Type: ipkg
+Description: SATIP server
+https://github.com/catalinii/minisatip
+Daniel Kucera <github@danman.eu>
+@@
+Config:
+	if PACKAGE_minisatip
+
+		config MINISATIP_AES
+			bool "OpenSSL (AES as part of DVBAPI)"
+			default n
+
+		config MINISATIP_CLIENT
+			bool "SatIP Client"
+			default y
+
+	endif
+@@
+
+

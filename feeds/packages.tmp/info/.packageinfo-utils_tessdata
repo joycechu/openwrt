@@ -1,0 +1,2603 @@
+Source-Makefile: feeds/packages/utils/tessdata/Makefile
+
+Package: tesseract-data-afr
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for afr language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for afr language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-amh
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for amh language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for amh language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ara
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ara language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ara language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-asm
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for asm language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for asm language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-aze
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for aze language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for aze language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-aze_cyrl
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for aze_cyrl language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for aze_cyrl language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-bel
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for bel language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for bel language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ben
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ben language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ben language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-bod
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for bod language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for bod language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-bos
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for bos language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for bos language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-bre
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for bre language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for bre language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-bul
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for bul language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for bul language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-cat
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for cat language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for cat language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ceb
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ceb language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ceb language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ces
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ces language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ces language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-chi_sim
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for chi_sim language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for chi_sim language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-chi_sim_vert
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for chi_sim_vert language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for chi_sim_vert language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-chi_tra
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for chi_tra language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for chi_tra language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-chi_tra_vert
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for chi_tra_vert language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for chi_tra_vert language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-chr
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for chr language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for chr language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-cos
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for cos language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for cos language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-cym
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for cym language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for cym language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-dan
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for dan language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for dan language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-dan_frak
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for dan_frak language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for dan_frak language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-deu
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for deu language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for deu language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-deu_frak
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for deu_frak language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for deu_frak language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-div
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for div language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for div language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-dzo
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for dzo language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for dzo language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ell
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ell language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ell language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-eng
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for eng language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for eng language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-enm
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for enm language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for enm language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-epo
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for epo language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for epo language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-equ
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for equ language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for equ language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-est
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for est language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for est language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-eus
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for eus language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for eus language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-fao
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for fao language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for fao language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-fas
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for fas language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for fas language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-fil
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for fil language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for fil language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-fin
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for fin language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for fin language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-fra
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for fra language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for fra language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-frk
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for frk language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for frk language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-frm
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for frm language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for frm language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-fry
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for fry language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for fry language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-gla
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for gla language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for gla language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-gle
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for gle language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for gle language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-glg
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for glg language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for glg language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-grc
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for grc language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for grc language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-guj
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for guj language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for guj language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-hat
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for hat language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for hat language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-heb
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for heb language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for heb language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-hin
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for hin language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for hin language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-hrv
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for hrv language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for hrv language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-hun
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for hun language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for hun language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-hye
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for hye language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for hye language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-iku
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for iku language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for iku language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ind
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ind language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ind language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-isl
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for isl language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for isl language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ita
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ita language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ita language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ita_old
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ita_old language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ita_old language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-jav
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for jav language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for jav language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-jpn
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for jpn language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for jpn language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-jpn_vert
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for jpn_vert language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for jpn_vert language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kan
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kan language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kan language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kat
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kat language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kat language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kat_old
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kat_old language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kat_old language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kaz
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kaz language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kaz language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-khm
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for khm language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for khm language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kir
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kir language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kir language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kor
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kor language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kor language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kor_vert
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kor_vert language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kor_vert language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kur
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kur language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kur language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-kur_ara
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for kur_ara language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for kur_ara language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-lao
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for lao language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for lao language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-lat
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for lat language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for lat language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-lav
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for lav language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for lav language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-lit
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for lit language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for lit language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ltz
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ltz language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ltz language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mal
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mal language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mal language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mar
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mar language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mar language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mkd
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mkd language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mkd language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mlt
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mlt language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mlt language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mon
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mon language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mon language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mri
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mri language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mri language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-msa
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for msa language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for msa language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-mya
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for mya language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for mya language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-nep
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for nep language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for nep language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-nld
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for nld language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for nld language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-nor
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for nor language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for nor language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-oci
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for oci language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for oci language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ori
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ori language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ori language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-osd
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for osd language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for osd language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-pan
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for pan language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for pan language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-pol
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for pol language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for pol language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-por
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for por language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for por language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-pus
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for pus language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for pus language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-que
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for que language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for que language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ron
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ron language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ron language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-rus
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for rus language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for rus language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-san
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for san language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for san language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-sin
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for sin language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for sin language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-slk
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for slk language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for slk language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-slk_frak
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for slk_frak language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for slk_frak language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-slv
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for slv language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for slv language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-snd
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for snd language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for snd language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-spa
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for spa language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for spa language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-spa_old
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for spa_old language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for spa_old language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-sqi
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for sqi language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for sqi language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-srp
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for srp language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for srp language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-srp_latn
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for srp_latn language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for srp_latn language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-sun
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for sun language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for sun language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-swa
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for swa language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for swa language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-swe
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for swe language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for swe language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-syr
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for syr language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for syr language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tam
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tam language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tam language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tat
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tat language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tat language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tel
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tel language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tel language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tgk
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tgk language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tgk language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tgl
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tgl language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tgl language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tha
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tha language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tha language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tir
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tir language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tir language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ton
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ton language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ton language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-tur
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for tur language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for tur language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-uig
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for uig language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for uig language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-ukr
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for ukr language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for ukr language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-urd
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for urd language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for urd language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-uzb
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for uzb language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for uzb language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-uzb_cyrl
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for uzb_cyrl language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for uzb_cyrl language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-vie
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for vie language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for vie language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-yid
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for yid language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for yid language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+Package: tesseract-data-yor
+Submenu: Tesseract
+Version: 4.0.0-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread tesseract
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Tesseract training data for yor language
+Maintainer: Valentín Kivachuk <vk18496@gmail.com>
+Source: tessdata-4.0.0.tar.gz
+License: Apache-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: Tesseract training data for yor language
+Valentín Kivachuk <vk18496@gmail.com>
+@@
+
+

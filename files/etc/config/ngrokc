@@ -1,0 +1,14 @@
+config ngrokc 'main'
+	option check_interval '0'
+
+config servers 'xiaomiqiu'
+	option host 'ngrok.xiaomiqiu.cn'
+	option port '4443'
+
+config tunnel 'tunnel'
+	option enabled '1'
+	option server 'xiaomiqiu'
+	option type 'tcp'
+	option lport '1022'
+	option rport '55556'
+
